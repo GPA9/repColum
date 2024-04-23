@@ -1,0 +1,17 @@
+* {
+    background-color: #fddfad;
+}
+.hover {
+    color: red; 
+}
+.hover:hover {
+    color: limegreen;
+}
+.backHover {
+    column-count: 3;
+    column-rule: 2px solid red;
+    column-gap: 40px;
+}
+.backHover::selection {
+    background-color: blueviolet;
+}
